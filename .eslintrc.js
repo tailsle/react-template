@@ -7,11 +7,16 @@ module.exports = {
 	overrides: [],
 	parserOptions: {
 		ecmaVersion: 'latest',
-		sourceType: 'module'
+		sourceType: 'module',
+		project: ['./tsconfig.json']
 	},
 	plugins: ['react'],
 	rules: {
-		indent: ['error', 'tab'],
-		'no-tabs': ['error', { allowIndentationTabs: true }]
+		indent: 'off',
+		'@typescript-eslint/indent': 'off',
+		'no-tabs': ['error', { allowIndentationTabs: true }],
+		'@typescript-eslint/explicit-function-return-type': 'off',
+		'@typescript-eslint/no-floating-promises': 'off',
+		'@typescript-eslint/space-before-function-paren': 'off'
 	}
 }
