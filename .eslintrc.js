@@ -17,6 +17,8 @@ module.exports = {
 		'no-tabs': ['error', { allowIndentationTabs: true }],
 		'@typescript-eslint/explicit-function-return-type': 'off',
 		'@typescript-eslint/no-floating-promises': 'off',
-		'@typescript-eslint/space-before-function-paren': 'off'
+		'@typescript-eslint/space-before-function-paren': 'off',
+		'space-before-function-paren': 'off',
+		semi: 'off'
 	}
-}
+};
