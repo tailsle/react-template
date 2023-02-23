@@ -19,6 +19,7 @@ module.exports = {
 		'@typescript-eslint/no-floating-promises': 'off',
 		'@typescript-eslint/space-before-function-paren': 'off',
 		'space-before-function-paren': 'off',
+		'@typescript-eslint/semi': 'off',
 		semi: 'off'
 	}
 };
